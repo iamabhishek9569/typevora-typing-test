@@ -35,7 +35,11 @@ export const HistoryView: React.FC<HistoryViewProps> = ({
   return (
     <div
       id="history-view-container"
+<<<<<<< HEAD
       className="w-full max-w-5xl lg:max-w-6xl mx-auto my-6 bg-[#171411] border border-[#2c241c] rounded-2xl p-6 sm:p-8 shadow-2xl shadow-[#ff6b00]/5 animate-in fade-in duration-200"
+=======
+      className="w-full max-w-4xl mx-auto my-6 bg-[#171411] border border-[#2c241c] rounded-2xl p-6 sm:p-8 shadow-2xl shadow-[#ff6b00]/5 animate-in fade-in duration-200"
+>>>>>>> c72c158648bcc11f6a3f96963d22ec6ce579feca
     >
       {/* Header */}
       <div className="flex flex-wrap items-center justify-between gap-4 border-b border-[#2c241c] pb-6">

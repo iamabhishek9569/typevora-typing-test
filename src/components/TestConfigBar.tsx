@@ -76,7 +76,11 @@ export const TestConfigBar: React.FC<TestConfigBarProps> = ({
 
   return (
     <div
+<<<<<<< HEAD
       className={`w-full max-w-5xl lg:max-w-6xl mx-auto mb-6 px-4 transition-opacity duration-300 ${
+=======
+      className={`w-full max-w-4xl mx-auto mb-6 px-4 transition-opacity duration-300 ${
+>>>>>>> c72c158648bcc11f6a3f96963d22ec6ce579feca
         isTypingActive ? 'opacity-0 pointer-events-none h-0 overflow-hidden' : 'opacity-100'
       }`}
     >
