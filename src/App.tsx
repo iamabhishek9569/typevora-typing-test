@@ -69,22 +69,12 @@ export default function App() {
     }
   };
 
-<<<<<<< HEAD
   // Restart current test session with fresh new paragraph
   const handleRestart = useCallback(() => {
     setLastResult(null);
     generateNewText(settings.difficulty, settings.duration);
     setActiveTab('test');
   }, [generateNewText, settings.difficulty, settings.duration]);
-=======
-  // Restart current test session
-  const handleRestart = () => {
-    setLastResult(null);
-    setTestSessionKey((prev) => prev + 1);
-    setIsTypingActive(false);
-    setActiveTab('test');
-  };
->>>>>>> c72c158648bcc11f6a3f96963d22ec6ce579feca
 
   // Complete test handler
   const handleFinishTest = (result: TestResult) => {
