@@ -1,0 +1,6 @@
+{
+  "name": "TypeVora",
+  "description": "A minimal, modern, and highly responsive English typing test platform with speed analytics and custom durations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
